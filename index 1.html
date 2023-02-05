@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Viewing</title>
+    <style>
+        h1{
+
+            font-family: 'Times New Roman', Times, serif;
+            color: rgba(33, 46, 143, 0.5);
+            font-size: 50px;
+	        font-weight: bold;
+	        text-align: center;
+	        padding: 22px 20px ;
+            
+        }
+        
+        .gallery{
+
+            top: 50%;
+	        left: 50%;
+	        transform: translate(-50% , -50%);
+	        position:absolute;
+        
+        }
+
+        .gallery img{
+            width: 300px;
+            height: 200px;
+	        margin: 20px 10px 20px 20px;
+	        cursor: pointer;
+            align-content: center;
+	        
+        }
+
+        
+        .gallery img:hover {
+	        opacity: 1;
+            transform: scale(1.1);
+	        cursor: zoom-in;
+        
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>The Gallery</h1>
+    <div class="gallery">
+        <img src="images/aurora-g79a8a2479_1920.jpg" alt="" title="images/aurora-g79a8a2479_1920.jpg">
+        <img src="images/flowers-gfbaa48ed9_1280.jpg" alt="" title="images/flowers-gfbaa48ed9_1280.jpg">
+        <img src="images/mountains-g44c25934d_1280.jpg" alt="" title="images/mountains-g44c25934d_1280.jpg">
+        <img src="images/sunset-gf3d3a0688_1920.jpg" alt="" title="images/sunset-gf3d3a0688_1920.jpg">
+    </div>
+</body>
+
+</html>

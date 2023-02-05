@@ -1,0 +1,39 @@
+*{
+    background-color: bisque;
+}
+
+.slider{
+
+    margin: 30px auto;
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}
+
+.image_slider img{
+    
+    width: 500px; 
+    height: 300px;
+    border-radius: 10px;
+
+}
+.image_slider:hover{
+
+    background: url('flowers-gfbaa48ed9_1280.jpg');
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background: #888;
+    padding: 10px 30px;
+    color: #ddd;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 15px;
+    }
+
+.btn:hover{
+
+    background: #111;
+}
